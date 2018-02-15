@@ -11,7 +11,7 @@ render() {
     this.state={
       date: null, 
       time: null,
-      address: null,
+      location: null,
       car: null,
       plate: null,
     }
