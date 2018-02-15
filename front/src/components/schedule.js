@@ -33,7 +33,7 @@ class Schedule extends Component {
   }
   render() {
     return (
-      <div className='page'>
+      <div className='page schedule'>
 	      <div className="bootstrap-iso">
 	      <h1> Book your appointment with our Mobile Detailing Team!</h1>
 	          <div className="container-fluid washPackages row col-xs-8 col-xs-offset-2">

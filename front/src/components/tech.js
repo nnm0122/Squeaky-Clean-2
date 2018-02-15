@@ -3,9 +3,9 @@ import React, {Component } from 'react';
 class Tech extends Component {
 render() {
   return (
-      <div className="tech">
+      <div className="tech page">
 
-      Tech
+      Coming Soon!
 
       </div>
     );

@@ -10,9 +10,6 @@ import Tech from './components/tech';
 import Login from './components/login';
 
 class Authenticated extends Component {
-constructor(props) {
-  super(props)
-}
 render() {
   return (
      <div className="auth">

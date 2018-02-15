@@ -1,14 +1,6 @@
 import React, {Component } from 'react';
 import axios from 'axios';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Authenticated from './auth';
-import NoPage from './components/404';
-import Contact from './components/contact';
-import Header from './components/header';
-import Home from './components/home';
-import Packages from './components/packages';
-import Schedule from './components/schedule';
-import Tech from './components/tech';
 import Login from './components/login';
 
 class App extends Component {

@@ -30,27 +30,22 @@ constructor(props){
 
   render() {
     return (
-      <section className="container page">
-          <Jumbotron 
-             title="Contact Us"
-            subTitle="We would love to hear your feedback"
-            description="Thank you for being a customer!"
-          />
-        
-            
-              <div className="form-group">
+      <section className="contact page">
+
+              <h1>Contact Us</h1>
+              <div className="">
                 <label for="exampleFormControlInput1">Email address</label>
                 <input type="email"
                       value={this.state.email}
-                        className="form-control"
+                        className=""
                         name="email"
                         id="exampleFormControlInput1"
                         onChange={this.handleInputChange}
                         placeholder="name@example.com" />
               </div>
-              <div className="form-group">
+              <div className="">
                 <label for="exampleFormControlTextarea1">Enter your comment here.</label>
-                <textarea className="form-control"
+                <textarea className=""
                           name="body"
                           value={this.state.body}
                           id="exampleFormControlTextarea1"
