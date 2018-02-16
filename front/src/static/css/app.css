@@ -82,3 +82,13 @@ header a:hover {
 .tech {
 	text-align: center;
 }
+a {
+	color: black;
+	font-size: .8em;
+}
+a:hover {
+	color: rgb(255,235,59);
+}
+p{
+	font-size: .8em;
+}
