@@ -64,7 +64,7 @@ header a:hover {
 	width: 30%;
 	margin: 0 5px;
 	padding: 10px;
-	background: rgb(2,136,209);
+	background: rgba(2,136,209,0.8);
 	box-shadow: 3px solid rgb(1,87,155);
 }
 
