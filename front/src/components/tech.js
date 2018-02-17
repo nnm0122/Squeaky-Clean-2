@@ -5,7 +5,9 @@ render() {
   return (
       <div className="tech">
 
-      Tech
+      <h1> Technician Dashboard</h1>
+
+      <p>Appointments Placeholder ......Work in Progress</p>
 
       </div>
     );
