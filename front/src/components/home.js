@@ -5,6 +5,11 @@ render() {
   return (
       <div className="home page">
 
+           <video id="background-video" loop autoPlay>
++		    <source src={require("../static/img/background-movie3.mp4")} type="video/mp4" />
++		</video>
+       </div>
+
      <h1>About Us</h1>
      <p>Squeaky clean is a mobile car wash service. Our mobile team will come to you to provide our outstanding car detailing service.  Booking is simple. All we need is a location and your keys!</p>
 
