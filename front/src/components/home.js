@@ -5,7 +5,10 @@ render() {
   return (
       <div className="home">
 
-      Home
+      <video id="background-video" loop autoPlay>
+		    <source src={require("../static/img/background-movie3.mp4")} type="video/mp4" />
+		    Your browser does not support the video tag.
+		</video>
 
       </div>
     );

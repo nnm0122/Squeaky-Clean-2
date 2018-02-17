@@ -82,10 +82,7 @@ formSubmit(type) {
 render() {
   return (
     <div>	  	
-    <video id="background-video" loop autoPlay>
-		    <source src={require("./static/img/background-movie.mp4")} type="video/mp4" />
-		    Your browser does not support the video tag.
-		</video>
+    
     	<div className="app">
 
      	{this.authenticated()}
