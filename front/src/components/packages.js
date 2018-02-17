@@ -8,8 +8,8 @@ render() {
 
         <div className="box">
         <h3>Squeaky Clean </h3>
-  			<p>Exterior only wash, clear coat shine, clear coat protectant, and underbody wash.  </p>
-  			<p> $45 </p>
+        <p>Exterior only wash, clear coat shine, clear coat protectant, and underbody wash.  </p>
+        <p> $45 </p>
         </div>
 
         <div className="box">
@@ -22,7 +22,7 @@ render() {
         <h3>Squeaky Ultimate </h3>
         <p>Full service wash, mat shampoo, clear coat protectant,  clear coat shine, coat protectant, underbody wash, tire shine, rim cleaning, polish wax, interior fragrance  .</p>
         <p>$80</p>
-        </div>		
+        </div>    
 
       </div>
     );
