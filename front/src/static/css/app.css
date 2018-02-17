@@ -1,3 +1,13 @@
+
+body {
+	background: rgba(176,190,197,0.3);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
 .app {
 	position: absolute;
 	top: 0;
@@ -37,7 +47,54 @@ header a:hover {
 	color: red;
 }
 .page {
+
 	float:left;
+
+	background: rgba(255,255,255,0.7);
+	float: left;
+
 	width: 100%;
 	margin:0;
+
+	padding: 10px;
+}
+
+.box {
+	float: left;
+	width: 30%;
+	margin: 0 5px;
+	padding: 10px;
+	background: rgba(2,136,209,0.8);
+	box-shadow: 3px solid rgb(1,87,155);
+}
+
+.box h3 {
+	color: rgb(255,235,59);
+}
+
+.schedule label, .contact label, .schedule input, .contact textarea {
+	float: left;
+	width: 100%;
+	margin: 0 0 10px 0;
+	resize: none
+}
+
+.tech {
+	text-align: center;
+}
+a {
+	color: black;
+	font-size: .8em;
+}
+a:hover {
+	color: rgb(255,235,59);
+}
+p{
+	font-size: .8em;
+}
+.logoOffset{
+	width: 100%;
+	margin-top: 20px;
+	margin-left: -70px;
+
 }
