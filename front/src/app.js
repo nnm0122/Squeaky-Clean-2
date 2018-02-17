@@ -81,10 +81,13 @@ formSubmit(type) {
 }
 render() {
   return (
-     <div className="app">
+    <div>
+    	<div className="app">
 
      	{this.authenticated()}
 
+  		</div>
+  	<img className="logoOffset"src={require("./static/img/duckLogo.png")}/>
   	</div>
     );
   }
